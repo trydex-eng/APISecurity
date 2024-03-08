@@ -1,2 +1,2 @@
 # API Security
-Demo API Security Testing Environment.
+Demo API Security Testing Environment
