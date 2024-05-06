@@ -1,9 +1,0 @@
-# Make sure your app.host web application is started and accessible before you scan.
-#  - name: Start Web Application
-#     run: docker run --rm --detach --publish 8080:80 --name my_web_app nginx
-   - name: API Scan with StackHawk
-      uses: stackhawk/hawkscan-action@v2.1.3
-      with:
-      apiKey: ${{ secrets.HAWK_API_KEY }}
-      env:
-         SARIF_ARTIFACT: true
