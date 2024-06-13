@@ -2,16 +2,9 @@ name: HawkScan
 on:
   push:
   pull_request:
-jobs:
-  hawkscan:
-    name: HawkScan
-    runs-on: ubuntu-latest
-    steps:
-      - name: Clone repo
-        uses: actions/checkout@v2
-      - name: Run HawkScan
-        uses: stackhawk/hawkscan-action@v2
-        with:
-          apiKey: ${{ secrets.HAWK_API_KEY }}
-        env:
-         SARIF_ARTIFACT: true
+uses: stackhawk/hawkscan-action@v2.1.3
+with:
+  apiKey: $
+  env:
+  SARIF_ARTIFACT: true
+
