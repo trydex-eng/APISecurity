@@ -18,5 +18,6 @@ jobs:
         uses: stackhawk/hawkscan-action@main
         with:
           apiKey: ${{ secrets.HAWK_API_KEY }}
+          upload-to-code-scanning: true
         env:
           SARIF_ARTIFACT: true
