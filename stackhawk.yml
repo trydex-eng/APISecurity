@@ -1,7 +1,7 @@
 # -- stackhawk configuration for apimdefender --
 app:
   # -- An applicationId obtained from the StackHawk platform. --
-  applicationId: a115c778-06f8-4f77-8d51-ba4a08cbd459 # (required)
+  applicationId: c0c19b2e-227b-4002-be9d-b61353e8a90e # (required)
   # -- The environment for the applicationId defined in the StackHawk platform. --
   env: Development # (required)
   # -- The url of your application to scan --
